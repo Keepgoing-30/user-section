@@ -1,0 +1,22 @@
+{
+  "eslint.validate": [
+    "javascript"
+  ],
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit"
+  },
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "html.format.indentInnerHtml": true,
+  "html.format.extraLiners": " ",
+  "files.eol": "\n",
+  "workbench.sideBar.location": "right",
+  "editor.minimap.enabled": false,
+  "workbench.editor.enablePreviewFromQuickOpen": false,
+  "search.useIgnoreFiles": false,
+  "search.exclude": {
+    "**/node_modules": true,
+    "**/package-lock.json": true,
+  },
+  "terminal.integrated.defaultProfile.linux": "zsh",
+}

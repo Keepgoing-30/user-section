@@ -1,0 +1,54 @@
+{
+  "tests": [
+    {
+      "name": "Code style (extra credit)",
+      "setup": "",
+      "run": "npm run format:check && npm run lint:check",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 5
+    },    
+    {
+      "name": "Check properties",
+      "setup": "",
+      "run": "npx vitest --run -t 'Check properties'",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 10
+    },
+    {
+      "name": "Check structure",
+      "setup": "",
+      "run": "npx vitest --run -t 'Check structure'",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 10
+    },
+    {
+      "name": "Check behavior",
+      "setup": "",
+      "run": "npx vitest --run -t 'Check behavior'",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 10
+    },
+    {
+      "name": "Check style",
+      "setup": "",
+      "run": "npx vitest --run -t 'Check style'",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 10
+    }
+  ]
+}

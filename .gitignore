@@ -1,0 +1,6 @@
+npm-debug.log*
+node_modules
+dist
+*.local
+__snapshots__
+playwright-report
