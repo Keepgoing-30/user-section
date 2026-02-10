@@ -1,23 +1,33 @@
-/* TODO:
-  Fill out this component according to the README.
-*/
-
 .uses-section {
-  /* finish me */
+  display: flex;
+  flex-direction: column;
+  padding: 32px;
 }
 
 .uses-section__content {
-  /* finish me */
+  display: flex;
+  flex-direction: column;
+  row-gap: 64px;
 }
 
 .uses-section__group {
-  /* finish me */
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  column-gap: 32px;
+  padding-left: 16px;
+  border-left: 2px solid #e0e0e0;
 }
 
 .uses-section__group h2 {
-  /* finish me */
+  margin: 0;
+  font-size: 18px;
+  font-weight: bold;
+  min-width: 128px;
 }
 
 .uses-section__group-content {
-  /* finish me */
+  display: flex;
+  flex-direction: column;
+  row-gap: 32px;
 }
